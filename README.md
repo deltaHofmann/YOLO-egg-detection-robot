@@ -5,7 +5,7 @@ A small autonomous robot that uses a camera, a YOLO object detection model, an A
 The project combines computer vision with embedded motor control. The camera is used to determine the position of the egg in the image, while an ultrasonic sensor measures the distance to the object.
 
 ---
-
+![Image of the robot (not connection to a computer)](images/robot.jpeg)
 ## Features
 
 - Real-time egg detection using YOLO
