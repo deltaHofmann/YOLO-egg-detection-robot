@@ -423,14 +423,14 @@ Simplified control logic:
 
 ```text
                  Camera
-        ┌─────────────────────┐
-        │                     │
-        │    LEFT   CENTER   RIGHT
-        │      ←      ↓       →
-        │             ●       │
-        │          Egg        │
-        │                     │
-        └─────────────────────┘
+        ┌──────────────────────────┐
+        │                          │
+        │    LEFT   CENTER   RIGHT │
+        │      ←      ↓       →    │
+        │             ●            │
+        │          Egg             │
+        │                          │
+        └──────────────────────────┘
 ```
 
 The current system mainly uses the horizontal position for steering.
@@ -469,11 +469,7 @@ The program includes basic handling for common failures.
 
 If the webcam cannot be opened, the program stops and closes the Arduino connection.
 
-When the program is terminated, a stop command is sent to the Arduino:
-
-```text
-N
-```
+When the program is terminated, a stop command is sent to the Arduino.
 
 This prevents the motors from continuing to run after the Python program has stopped.
 
