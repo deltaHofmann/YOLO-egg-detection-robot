@@ -518,3 +518,7 @@ This project was developed as a practical project combining:
 - Embedded Systems
 - Arduino
 - Robotics
+
+## Note
+
+ChatGPT was used as a supporting tool during the development of this project, mainly for coding assistance, debugging, documentation, and formatting. The implementation, testing, and integration of the project were carried out by the author.
